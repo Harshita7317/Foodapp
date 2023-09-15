@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  font-family: 'Caprasimo' !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#carousel{
+  height:100vh;
+  width: 100%;
+  
+  object-fit: contain;
+
+}
+#card{
+align-items: center;
+}
+
