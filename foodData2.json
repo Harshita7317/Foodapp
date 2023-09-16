@@ -144,5 +144,80 @@
             }
         ],
         "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
-    }
+    },
+    {
+        "CategoryName": "Desserts",
+        "name": "Ice cream",
+        "img": "https://unsplash.com/photos/idTwDKt2j2o",
+        "options": [
+            {
+                "half": "100",
+                "full": "150"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Desserts",
+        "name": "Brownie with Ice-cream",
+        "img": "https://unsplash.com/photos/dKT6Q7q2UKs",
+        "options": [
+            {
+                "half": "120",
+                "full": "180"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Desserts",
+        "name": "Pancake",
+        "img": "https://unsplash.com/photos/iuKj0rRRddA",
+        "options": [
+            {
+                "half": "120",
+                "full": "180"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Beverages",
+        "name": "Virgin Mojito",
+        "img": "https://unsplash.com/photos/SPeWOme775E",
+        "options": [
+            {
+                "half": "120",
+                "full": "180"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Beverages",
+        "name": "Cold coffee",
+        "img": "https://unsplash.com/photos/xB0Kr0D0C8Y",
+        "options": [
+            {
+                "half": "120",
+                "full": "180"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Beverages",
+        "name": "Soft drink",
+        "img": "https://unsplash.com/photos/PuISZLkKjjs",
+        "options": [
+            {
+                "half": "120",
+                "full": "180"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+
+    
+    
 ]

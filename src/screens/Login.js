@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { Link, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Login() {
   const [credentials, setcredentials] = useState({
@@ -30,10 +32,10 @@ export default function Login() {
       localStorage.setItem("userEmail", credentials.email);
       localStorage.setItem("authToken", json.authToken);
       console.log(localStorage.getItem("authToken"));
-      alert("Logged in successfully");
+      toast.success("Logged in successfully");
       navigate("/");
     } else {
-      alert("Enter Valid Credentials");
+      toast.error("Enter Valid Credentials");
     }
   };
   const onChange = (e) => {
@@ -52,7 +54,9 @@ export default function Login() {
       <div>
         <Navbar />
       </div>
+
       <div className="container">
+        <ToastContainer />
         <form
           className="w-50 m-auto mt-5 border bg-dark border-success rounded"
           onSubmit={handleSubmit}
@@ -65,6 +69,7 @@ export default function Login() {
               type="email"
               className="form-control"
               name="email"
+              placeholder="gofood123@gmail.com"
               value={credentials.email}
               onChange={onChange}
             />
@@ -81,15 +86,19 @@ export default function Login() {
               type="password"
               className="form-control"
               name="password"
+              placeholder="********"
               value={credentials.password}
               onChange={onChange}
             />
+            <div id="emailHelp" className="form-text">
+              Enter your password
+            </div>
           </div>
 
-          <button type="submit" className="btn btn-success">
+          <button type="submit" className="btn btn-success m-3">
             Submit
           </button>
-          <Link to="/createuser" className="m-3 btn btn-danger">
+          <Link to="/createuser" className="m-2 btn btn-danger">
             I'm a new user
           </Link>
         </form>

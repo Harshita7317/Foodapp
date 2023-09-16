@@ -87,6 +87,15 @@ export default function Home() {
                 alt="..."
               />
             </div>
+            <div className="carousel-item active">
+              <img
+                src="https://source.unsplash.com/random/900x700/cake?"
+                className="d-block w-100  "
+                style={{ filter: "brightness(30%)" }}
+                alt="..."
+              />
+            </div>
+
           </div>
           <button
             className="carousel-control-prev"
